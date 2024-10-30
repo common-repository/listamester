@@ -1,0 +1,180 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Listamester\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-10-19 19:15+0000\n"
+"PO-Revision-Date: 2018-10-19 19:17+0000\n"
+"Last-Translator: Viktor Szépe <viktor@szepe.net>\n"
+"Language-Team: English (United States)\n"
+"Language: en_US\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: includes/class-listamester-admin.php:25
+#: includes/class-listamester-admin.php:32
+msgid "Listamester beállítások"
+msgstr ""
+
+#: includes/class-listamester-admin.php:25
+msgid "LM"
+msgstr "LM"
+
+#: includes/class-listamester-admin.php:26
+#: includes/class-listamester-admin.php:99
+msgid "Űrlapok"
+msgstr "Forms"
+
+#: includes/class-listamester-admin.php:27
+msgid "Beállítások"
+msgstr "Settings"
+
+#: includes/class-listamester-admin.php:33
+msgid ""
+"Írd be azt a felhasználói azonosítódat (ez a belépési e-mail címed) és "
+"jelszavadat, amit a ListaMester fiókodba való belépésnél használsz!"
+msgstr ""
+
+#: includes/class-listamester-admin.php:35
+msgid "Ha beírtad, kattints a Mentés gombra!"
+msgstr ""
+
+#: includes/class-listamester-admin.php:37
+msgid "A rendszer kiírja: sikeres"
+msgstr ""
+
+#: includes/class-listamester-admin.php:39
+msgid "A kapcsolat létrejött."
+msgstr ""
+
+#: includes/class-listamester-admin.php:41
+msgid "Ha az üzenet: \"sikertelen\", próbáld újra!"
+msgstr ""
+
+#: includes/class-listamester-admin.php:43
+msgid "Ezt a kapcsolatot csak egyszer kell beállítanod."
+msgstr ""
+
+#: includes/class-listamester-admin.php:45
+msgid ""
+"Figyelem: Ha megváltoztatod a belépési e-mail címed és/vagy a jeszavad a "
+"ListaMesterben a Beállítások menüpontban, itt is át kell írnod az újra!"
+msgstr ""
+
+#: includes/class-listamester-admin.php:74
+msgid "Felhasználói azonosító"
+msgstr ""
+
+#: includes/class-listamester-admin.php:100
+msgid ""
+"Itt találod az összes, a ListaMester fiókodban az új űrlapvarázslóval "
+"létrehozott űrlapjaidat."
+msgstr ""
+
+#: includes/class-listamester-admin.php:102
+msgid "ID = Az űrlap száma"
+msgstr ""
+
+#: includes/class-listamester-admin.php:104
+msgid ""
+"Név: Az űrlap neve, ahogy elnevezted a ListaMester fiókodban, amikor "
+"létrehoztad"
+msgstr ""
+
+#: includes/class-listamester-admin.php:106
+msgid ""
+"Csoport: Annak a csoportnak a neve, amihez létrehoztad az űrlapot (Figyelem: "
+"Egy csoporthoz tartozhat több űrlap is!)"
+msgstr ""
+
+#: includes/class-listamester-admin.php:108
+msgid "Shortcode: Kód az űrlap beillesztéséhez a honlapodba"
+msgstr ""
+
+#: includes/class-listamester-admin.php:110
+msgid "A beillesztés módja 4 féle lehet."
+msgstr ""
+
+#: includes/class-listamester-admin.php:115
+msgid ""
+"A javascript beillesztési mód egyetlen sor kódot illeszt be,\n"
+"ami a legtöbb esetben jól működik, és szabványos módon illeszti\n"
+"be az űrlapot. Előfordulhat viszont, hogy bizonyos sablonok\n"
+"erőszakos CSS szabályai felülírnak valamilyen formázási szabályokat\n"
+"az űrlapban, és picit változik a külalakja. Ez az ajánlott\n"
+"beillesztési mód."
+msgstr ""
+
+#: includes/class-listamester-admin.php:128
+msgid ""
+"A html beillesztési mód html kódot illeszt az oldalba, annak CSS\n"
+"szabályaival együtt. Ez nem teljesen szabványos, de jelenleg minden\n"
+"böngészőben működik. Akkor érdemes használni, ha ragaszkodsz ahhoz,\n"
+"hogy a kódok ott legyenek az oldalban, mert pl. picit módosítani is\n"
+"szeretnéd. Figyelem! Ez egy veszélyes módszer, mert a szövegszerkesztő\n"
+"hajlamos a kódokat megváltoztatni. Csak haladó felhasználóknak\n"
+"vagy profi webdizájnereknek ajánljuk ezt a beillesztési módot."
+msgstr ""
+
+#: includes/class-listamester-admin.php:142
+msgid ""
+"A legbiztonságosabb módszer egyértelműen az iframe, ami egy\n"
+"aloldalban tölti be az űrlapot. Ez bármilyen környezetben pontosan\n"
+"ábrázolja az űrlapot, és garantáltan jól működik, mert a ListaMester\n"
+"kódjait változatlan formában és üres CSS környezetben hozza be.\n"
+"Hátránya, hogy a köszönő oldal is benne marad az űrlap dobozában\n"
+"(nem lehet belőle kimenni). Emiatt sokan nem szeretik, de ezt\n"
+"ajánljuk, ha a javascript beillesztéssel gondok lennének."
+msgstr ""
+
+#: includes/class-listamester-admin.php:155
+msgid ""
+"Exit popup. Az űrlap akkor ugrik fel, amikor az olvasó elhagyja az oldalt. "
+"Javascript alapú beillesztéssel működik."
+msgstr ""
+
+#: includes/class-listamester-admin.php:160
+msgid ""
+"A kiválasztott űrlap beillesztéséhez másold ki az űrlap shortcode-ját\n"
+"a szögletes zárójelekkel együtt, majd másold be a honlapodon a\n"
+"tartalomba oda, ahova szeretnéd beilleszteni!"
+msgstr ""
+
+#: includes/class-listamester-admin.php:201
+msgid "ID"
+msgstr ""
+
+#: includes/class-listamester-admin.php:202
+msgid "Név"
+msgstr ""
+
+#: includes/class-listamester-admin.php:203
+msgid "Csoport"
+msgstr ""
+
+#: includes/class-listamester-admin.php:204
+msgid "Shortcode"
+msgstr ""
+
+#: includes/class-listamester-admin.php:212
+msgid "Vágólapra!"
+msgstr "To Clipboard!"
+
+#. Name of the plugin
+msgid "Listamester"
+msgstr ""
+
+#. Description of the plugin
+msgid "Hírlevélküldő, email marketing szolgáltatás WordPress-hez"
+msgstr ""
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "https://www.webshield.hu/"
+msgstr ""
+
+#. Author of the plugin
+msgid "WebShield (Csermák Szabolcs, Ferenc Mizera)"
+msgstr ""

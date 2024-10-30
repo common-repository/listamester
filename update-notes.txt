@@ -1,0 +1,13 @@
+how to upgrade code at https://wordpress.org/plugins/listamester/
+
+- modify code in the trunk 
+- don't forget to change version BOTH in readme.txt (stable tag) and in listamester.php
+- svn stat - see what have been changed (or svn diff)
+- svn ci -m 'commit your new changes'  (you may need the --username listamester switch first time)
+- svn cp trunk tags/x.y.z
+- svn ci -m 'commit new tag x.y.z' - this will update the plugin main page metadata and set the latest version
+
+more info (docs with examples):
+https://developer.wordpress.org/plugins/wordpress-org/how-to-use-subversion/
+
+
